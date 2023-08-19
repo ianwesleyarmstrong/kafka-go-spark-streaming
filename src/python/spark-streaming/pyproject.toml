@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spark-streaming"
+version = "0.1.0"
+description = ""
+authors = ["Ian Armstrong <ianwesleyarmstrong@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spark_streaming"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.4.1"
+pydantic-settings = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
